@@ -341,9 +341,9 @@ This module is one row of Patterns (rotated into one column)
 
   ![Menu](./doc/GridSeq-Menu-img2.png)
 
-  * **Trigger:** same as SEQ3
-  * **Retrigger:** same as SEQ3
-  * **Continuous:** same as SEQ3
+  * **Trigger:** Gate is nearly as long as a step. Pitch stays the same until the play cursor reaches another active step.
+  * **Retrigger:** Gate is a short trigger, Pitch stays the same until the play cursor reaches another active step
+  * **Continuous:** Gate lasts until play cursor reaches next inactive step. Pitch changes when step changes. 
   * **Ignore Gate for V/OCT Out:** If you want the pitch to continue changing even if the gates are not on, you can right click the module and check 
   'Ignore Gate for V/OCT Out'.  This can create interesting effects, for example, when gate is triggering an envelope with a long release.
 
